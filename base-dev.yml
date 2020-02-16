@@ -13,7 +13,7 @@ spring:
     database: mysql
     show-sql: true
   rabbitmq:
-    host: 192.168.1.128
+    host: 192.168.1.127
 eureka:
   client:
     serviceUrl:
@@ -22,4 +22,4 @@ eureka:
     prefer-ip-address: true
 
 sms:
-  ip: 192.168.1.127
+  ip: 192.168.1.128
